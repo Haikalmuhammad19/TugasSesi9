@@ -1,4 +1,4 @@
-public class simpul {
+public class Simpul {
     String nim;
     String nama;
     int nilai;
