@@ -60,9 +60,9 @@ public class linkedList {
     public static void main(String[] args) {
         linkedList mahasiswa = new linkedList();
 
-        mahasiswa.isiData("20210040191", "Azriel", 90);
-        mahasiswa.isiData("20210040198", "Tanasha", 85);
-        mahasiswa.isiData("20210042087", "Dina", 100);
+        mahasiswa.isiData("20220040008", "Haikal", 90);
+        mahasiswa.isiData("20220040007", "Tanasha", 85);
+        mahasiswa.isiData("20220040006", "Dina", 100);
         mahasiswa.hapusData("Azriel");
         mahasiswa.Tampilkan();
     }
