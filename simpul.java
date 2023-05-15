@@ -18,4 +18,13 @@ public class simpul {
         System.out.println("Pointer Next " + berikutnya);
         System.out.println("---------------------------------");
     }
+
+    public static void main(String[] args) {
+        // Create and test instances of the simpul class
+        simpul data1 = new simpul("20220040008", "Haikal", 90);
+        data1.infoData();
+
+        simpul data2 = new simpul("20220040007", "Tanasha", 85);
+        data2.infoData();
+    }
 }
